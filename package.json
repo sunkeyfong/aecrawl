@@ -1,6 +1,6 @@
 {
   "name": "aecrawl",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "抓取程序",
   "main": "dist/index.js",
   "bin":{
@@ -16,7 +16,7 @@
     "node": ">= 6"
   },
   "homepage": "https://anedge.tech",
-  "repository": null,
+  "repository": "https://github.com/sunkeyfong/aecrawl",
   "dependencies": {
     "fs": "0.0.1-security",
     "mongodb": "^3.5.2",
