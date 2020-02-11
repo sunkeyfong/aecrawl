@@ -3,7 +3,7 @@
 aecrawl主要功能依赖：
 - 1. puppeteer : 实现网页抓取功能
 - 2. temme : 实现网页html文件提取成json
-- 3. mongdodb : 将json数据保存到mongodb
+- 3. mongodb : 将json数据保存到mongodb
 
 # 安装
 
@@ -18,7 +18,7 @@ aecrawl包含命令行工具及规则类两部分，我们需要继承规则类*
 ```javascript
 // imdb/FilmDetailWeb.js
 
-const { Page } = require('aecral')
+const { Page } = require('aecrawl')
 //配置说明
 const config = {
     //类需要使用的参数，可以通过 this.args.id 获取
