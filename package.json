@@ -1,0 +1,28 @@
+{
+  "name": "aecrawl",
+  "version": "1.0.1",
+  "description": "抓取程序",
+  "main": "dist/index.js",
+  "bin":{
+    "aecrawl" : "bin/index.js"
+  },
+  "scripts": {
+    "aecrawl": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "author": "sunkeyfong <hi@sunkey.me> (http://sunkey.me)",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 6"
+  },
+  "homepage": "https://anedge.tech",
+  "repository": null,
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "mongodb": "^3.5.2",
+    "puppeteer": "^2.1.1",
+    "temme": "^0.8.3",
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {}
+}
