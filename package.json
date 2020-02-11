@@ -22,7 +22,8 @@
     "mongodb": "^3.5.2",
     "puppeteer": "^2.1.1",
     "temme": "^0.8.3",
-    "yargs": "^15.1.0"
+    "yargs": "^15.1.0",
+    "deepmerge": "^4.2.2"
   },
   "devDependencies": {}
 }
